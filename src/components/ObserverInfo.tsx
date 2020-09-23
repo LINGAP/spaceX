@@ -3,7 +3,7 @@ import React from "react";
 import { InputNumber, Form, Button } from "antd";
 
 const ObserverInfo = () => {
-  const onFormFinish = (observerInfo) => {
+  const onFormFinish = (observerInfo:React.FormEvent<HTMLFormElement>) => {
     // TO DO: call N2YO api to get nearby satellites information
   }
 
