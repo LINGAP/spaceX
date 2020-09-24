@@ -1,10 +1,14 @@
 import React from 'react';
 import { Layout } from 'antd';
-import starlinkLogo from './assets/images/starlink_logo.svg';
+import starlinkLogo from './images/starlink_logo.svg';
 import './App.css';
 import Main from './components/Main';
 
 const { Header, Footer, Content } = Layout;
+
+interface State{
+
+}
 function App() {
   return (
     <Layout>

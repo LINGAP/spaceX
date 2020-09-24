@@ -1,8 +1,12 @@
 import Title from "antd/lib/typography/Title";
-import React from "react";
+import React, { FormEvent, FunctionComponent  } from "react";
 import { InputNumber, Form, Button } from "antd";
 
-const ObserverInfo = () => {
+interface Props {
+
+}
+
+const ObserverInfo:FunctionComponent<Props> = () => {
   const onFormFinish = (observerInfo:React.FormEvent<HTMLFormElement>) => {
     // TO DO: call N2YO api to get nearby satellites information
   }
